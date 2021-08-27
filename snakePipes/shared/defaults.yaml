@@ -1,0 +1,13 @@
+clusterConfig: shared/cluster.yaml
+configMode: manual
+emailSender: null
+oldConfig: null
+onlySSL: false
+organismsDir: shared/organisms
+smtpPassword: null
+smtpPort: 0
+smtpServer: null
+smtpUsername: null
+snakemakeOptions: ' --use-conda --conda-prefix /data/processing3/akhtargroup/sunyd/miniconda3/envs '
+tempDir: /data/extended/
+toolsVersion: true

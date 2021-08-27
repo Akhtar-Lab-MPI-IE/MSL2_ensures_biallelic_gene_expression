@@ -1,0 +1,104 @@
+---
+author: "`r Sys.info()[length(Sys.info())-1]`"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+    html_document:
+        fig_caption: yes
+title: "`r paste0('CSAW differential binding stats report')`"
+---
+
+```{r setup, include=FALSE}
+.libPaths(R.home("library"))
+
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+### Overview
+
+This report summarizes statistical analysis of binding events using group information provided in sample sheet `r snakemake@params[["sample_sheet"]]`.
+
+### Analysis input
+
+```{r data_load}
+DBdata<-file.path(snakemake@params[["outdir"]], "DiffBinding_analysis.Rdata")
+useSpikeInForNorm<-snakemake@params[["useSpikeInForNorm"]]
+suppressMessages(require(GenomicRanges))
+suppressMessages(require(csaw))
+load(DBdata)
+```
+
+Input to the differential binding analysis were `r length(chip_object$windowCounts)` genomic bins of size `r width(chip_object$windowCounts)[1]` bp having any overlap to the union of `r unlist(strsplit(snakemake@output[["outfile"]],"_"))[2]` peaks from all samples listed in the sample sheet.   
+Size factors were calculated via `r ifelse(useSpikeInForNorm,"spikein normalization","TMM normalization of read counts obtained for 10kb genomic bins")` and amounted to `r chip_object$windowCounts$norm.factors`.   
+
+### Statistical analysis
+
+Statistical model was fit according to the following design:
+
+```{r design_used}
+chip_object$design
+```
+
+The original windows were merged into `r length(chip_results$mergedRegions$region)` regions, for which p values were combined and FDR estimates were obtained after adjustment for multiple testing.
+The absolute log fold change of the window with the smallest p value belonging to a merged region was reported as best log fold change for that region.
+
+### Filtering of results
+
+```{r filter_results}
+merged.window <- chip_results$mergedRegions.window
+merged.peak <- chip_results$mergedRegions.peak
+merged = c(merged.window$regions, merged.peak$regions)
+
+tabcom.window <- chip_results$combinedPvalues.window
+tabcom.peak <- chip_results$combinedPvalues.peak
+tabcom = rbind(tabcom.window, tabcom.peak)
+
+merged$score <- -10 * log10(tabcom$FDR)
+names(merged) <- paste0("region", 1:length(merged))
+tabcom$name <- names(merged)
+tabx <- as.data.frame(merged, stringsAsFactors=FALSE)
+tabx$name <- rownames(tabx)
+full_res <- as.data.frame(merge(x=tabx, y=tabcom, by.x="name", by.y="name"), stringsAsFactors=FALSE)
+fdrcutoff <- as.numeric(snakemake@params[["fdr"]])
+lfccutoff <- as.numeric(snakemake@params[["lfc"]])
+full_res.filt <- subset(full_res, (FDR<=fdrcutoff) & (abs(best.logFC) >= lfccutoff))
+```
+
+Applying FDR threshold of `r snakemake@params[["fdr"]]` and absolute (best) log fold change threshold of `r snakemake@params[["lfc"]]` resulted in a final list of `r nrow(full_res.filt)` merged regions.   
+Numbers of regions showing different direction change were as follows:
+
+```{r direction_list}
+table(full_res.filt$direction)
+```
+
+### Visualizing the results
+
+Deeptools matrices were computed for the filtered lists of merged regions showing different change directions and visualized as heatmaps with summary profiles. For this purpose, merged regions were all scaled to 1kb, and an extention of 0.2kb was added on each side.
+
+Heatmaps obtained using log2 ratio of ChIP signal over input were as follows:
+
+```{r plot_l2r,fig.show='hold',fig.align='center', out.width ='40%',out.height='30%',fig.cap="UP and DOWN regions using log2 ratio."}
+if(sum(grepl("log2r.heatmap.png",snakemake@input[["csaw_in"]]))<1){
+    message("ChIP signal enrichment over input is only available for ChIP-seq workflow!")
+}else{
+    knitr::include_graphics(c(file.path(snakemake@params[["outdir"]], "CSAW.UP.log2r.heatmap.png"),
+                              file.path(snakemake@params[["outdir"]], "CSAW.DOWN.log2r.heatmap.png")))
+}
+```
+
+Heatmaps obtained using depth-normalized coverage were as follows:
+
+```{r plot_cov, fig.show='hold',fig.align='center', out.width ='40%',out.height='30%',fig.cap="UP and DOWN regions using coverage."}
+if(file.info(file.path(snakemake@params[["outdir"]], "CSAW.UP.cov.heatmap.png"))$size != 0){
+    knitr::include_graphics(c(file.path(snakemake@params[["outdir"]], "CSAW.UP.cov.heatmap.png")))
+}else{
+    message("No UP regulated regions has been detected!")
+}
+if(file.info(file.path(snakemake@params[["outdir"]], "CSAW.DOWN.cov.heatmap.png"))$size != 0){
+    knitr::include_graphics(c(file.path(snakemake@params[["outdir"]], "CSAW.DOWN.cov.heatmap.png")))
+}else{
+    message("No DOWN regulated regions has been detected!")
+}
+```
+
+Tables with differentially bound regions annotated with distance to nearest gene can be found in folder `r paste0("AnnotatedResults_", gsub("\\.[a-zA-Z]{3}$", "", basename(snakemake@params[["sampleSheet"]])))`.

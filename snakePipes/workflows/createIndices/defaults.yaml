@@ -1,0 +1,50 @@
+################################################################################
+# This file is the default configuration of the index creation workflow!
+#
+# In order to adjust some parameters, please either use the wrapper script
+# (eg. /path/to/snakemake_workflows/workflows/createIndices/createIndices)
+# or save a copy of this file, modify necessary parameters and then provide
+# this file to the wrapper or snakmake via '--configFile' option
+# (see below how to call the snakefile directly)
+#
+# Own parameters will be loaded during snakefile executiuon as well and hence
+# can be used in new/extended snakemake rules!
+################################################################################
+pipeline: createIndices
+outdir:
+configFile:
+clusterConfigFile:
+local: False
+maxJobs: 5
+verbose: False
+## Genome name used in snakePipes (no spaces!)
+genome:
+## Tools to create indices for. "all" for all of them
+tools: all
+## URLs or paths for fasta and GTF files
+genomeURL:
+spikeinGenomeURL:
+spikeinExt: '_spikein'
+gtfURL:
+spikeinGtfURL:
+## The effective genome size
+effectiveGenomeSize: 0
+## Regions to blacklist in the ChIP-seq and related workflows
+blacklist:
+spikeinBlacklist:
+## Regions to ignore during normalization (e.g., with bamCompare)
+ignoreForNormalization:
+## Repeat masker file. It's assumed that the columns are tab separated!
+rmsk_file:
+################################################################################
+# Call snakemake directly, i.e. without using the wrapper script:
+#
+# Please save a copy of this config yaml file and provide an adjusted config
+# via '--configFile' parameter!
+# example call:
+#
+# snakemake --snakefile /path/to/snakemake_workflows/workflows/createIndices/Snakefile
+#           --configFile /path/to/snakemake_workflows/workflows/createIndices/defaults.yaml
+#           --directory /path/to/outputdir
+#           --cores 32
+################################################################################
