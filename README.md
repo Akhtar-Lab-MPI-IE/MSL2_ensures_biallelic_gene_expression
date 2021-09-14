@@ -1,6 +1,6 @@
 # Allele-specific-project
 
-This repository includes scripts used for the paper: MSL2 ensures robustness of biallelic expression in mammals.
+This repository includes scripts used for the paper: MSL2 is an allelic dosage sensor in mammals.
 
 SnakePipes folder includes allele specific pipeline for RNA-seq, TT-seq, ATAC-seq and ChIP-seq analysis.
 
