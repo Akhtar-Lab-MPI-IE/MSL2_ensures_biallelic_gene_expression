@@ -16,6 +16,3 @@ Invocation:
 
  > snakemake -s Allele.Snakefile --configfile snakemakeConfig.yaml -c 5 --latency-wait 300
 
-Output:
-
-
