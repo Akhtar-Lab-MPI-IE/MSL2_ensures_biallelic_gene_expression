@@ -1,0 +1,15 @@
+name: bssAS
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python>3
+  - bismark=0.22.3
+  - methyldackel=0.6.0
+  - snpsplit=0.3.4
+  - deeptools=3.5.0
+  - fastqc=0.11.9
+  - multiqc=1.10.1
+  - snakemake=6.7.0
+  - ucsc-fatotwobit
