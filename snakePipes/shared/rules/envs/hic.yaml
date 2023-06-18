@@ -1,8 +1,0 @@
-name: hic_conda_env_1.0
-channels:
- - conda-forge
- - bioconda
-dependencies:
- - hicexplorer = 3.5
- - bwa = 0.7.17
- - samtools = 1.10
