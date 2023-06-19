@@ -1,0 +1,10 @@
+name    condition
+ESCs_Control_RNAseq_rep1    control
+ESCs_Control_RNAseq_rep2    control
+ESCs_Control_RNAseq_rep3    control
+ESCs_MSL2KO1_RNAseq_rep1    test
+ESCs_MSL2KO1_RNAseq_rep2    test
+ESCs_MSL2KO1_RNAseq_rep3    test
+ESCs_MSL2KO2_RNAseq_rep1    test
+ESCs_MSL2KO2_RNAseq_rep2    test
+ESCs_MSL2KO2_RNAseq_rep3    test

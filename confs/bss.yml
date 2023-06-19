@@ -13,3 +13,6 @@ dependencies:
   - multiqc=1.10.1
   - snakemake=6.7.0
   - ucsc-fatotwobit
+  - bioconductor-bsseq
+  - bioconductor-dss
+  - r-ggplot2

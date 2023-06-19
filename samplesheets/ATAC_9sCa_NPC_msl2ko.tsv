@@ -1,0 +1,13 @@
+name    condition
+NPCs_MSL2KO1_ATACseq_rep1.genome1   ko_g1
+NPCs_MSL2KO1_ATACseq_rep2.genome1   ko_g1
+NPCs_MSL2KO1_ATACseq_rep3.genome1   ko_g1
+NPCs_MSL2KO2_ATACseq_rep1.genome1   ko_g1
+NPCs_MSL2KO2_ATACseq_rep2.genome1   ko_g1
+NPCs_MSL2KO2_ATACseq_rep3.genome1   ko_g1
+NPCs_MSL2KO1_ATACseq_rep1.genome2   ko_g2
+NPCs_MSL2KO1_ATACseq_rep2.genome2   ko_g2
+NPCs_MSL2KO1_ATACseq_rep3.genome2   ko_g2
+NPCs_MSL2KO2_ATACseq_rep1.genome2   ko_g2
+NPCs_MSL2KO2_ATACseq_rep2.genome2   ko_g2
+NPCs_MSL2KO2_ATACseq_rep3.genome2   ko_g2

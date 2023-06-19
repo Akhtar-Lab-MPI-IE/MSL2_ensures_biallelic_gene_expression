@@ -1,0 +1,4 @@
+fqdir: 'path/to/fastq/'
+dualHybridIndex: True #Dual hybrid index. Set to False for CAST/BL6
+Nmaskpath: /path/to/maskedFNAdir
+strains: ['CAST_EiJ', '129S1_SvImJ'] # for CAST/BL6: Genomes = ['C57BL_6NJ', 'CAST_EiJ']

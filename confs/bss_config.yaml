@@ -1,4 +1,0 @@
-fqdir: 'path/to/fastq/'
-strains: ['CAST_EiJ', '129S1_SvImJ'] # for CAST/BL6: Genomes = ['C57BL_6NJ', 'CAST_EiJ']
-dualHybridIndex: True #Dual hybrid index. Set to False for CAST/BL6
-genomeFa: '/path/to/genome.fa'
