@@ -1,0 +1,10 @@
+name    condition
+NPCs_Control_RNAseq_rep1   control
+NPCs_Control_RNAseq_rep2   control
+NPCs_Control_RNAseq_rep3   control
+NPCs_MSL2KO1_RNAseq_rep1   test
+NPCs_MSL2KO1_RNAseq_rep2   test
+NPCs_MSL2KO1_RNAseq_rep3   test
+NPCs_MSL2KO2_RNAseq_rep1   test
+NPCs_MSL2KO2_RNAseq_rep2   test
+NPCs_MSL2KO2_RNAseq_rep3   test

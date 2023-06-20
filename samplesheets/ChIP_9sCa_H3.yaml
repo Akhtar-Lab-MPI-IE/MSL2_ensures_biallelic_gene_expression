@@ -1,0 +1,163 @@
+chip_dict:
+  NPCs_Control_KANSL1_rep1:
+    broad: false
+    control: 'NPCs_Control_H3-1_rep1'
+  NPCs_Control_KANSL1_rep2:
+    broad: false
+    control: 'NPCs_Control_H3-1_rep2'
+  NPCs_MSL2KO1_KANSL1_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-1_rep1'
+  NPCs_MSL2KO1_KANSL1_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-1_rep2'
+  NPCs_MSL2KO2_KANSL1_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-1_rep1'
+  NPCs_MSL2KO2_KANSL1_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-1_rep2'
+  NPCs_Control_KANSL3_rep1:
+    broad: false
+    control: 'NPCs_Control_H3-1_rep1'
+  NPCs_Control_KANSL3_rep2:
+    broad: false
+    control: 'NPCs_Control_H3-1_rep2'
+  NPCs_MSL2KO1_KANSL3_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-1_rep1'
+  NPCs_MSL2KO1_KANSL3_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-1_rep2'
+  NPCs_MSL2KO2_KANSL3_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-1_rep1'
+  NPCs_MSL2KO2_KANSL3_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-1_rep2'
+  NPCs_Control_Pol2_rep1:
+    broad: false
+    control: 'NPCs_Control_H3-1_rep1'
+  NPCs_Control_Pol2_rep2:
+    broad: false
+    control: 'NPCs_Control_H3-1_rep2'
+  NPCs_MSL2KO1_Pol2_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-1_rep1'
+  NPCs_MSL2KO1_Pol2_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-1_rep2'
+  NPCs_MSL2KO2_Pol2_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-1_rep1'
+  NPCs_MSL2KO2_Pol2_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-1_rep2'
+  NPCs_Control_MOF_rep1:
+    broad: false
+    control: 'NPCs_Control_H3-1_rep1'
+  NPCs_Control_MOF_rep2:
+    broad: false
+    control: 'NPCs_Control_H3-1_rep2'
+  NPCs_MSL2KO1_MOF_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-1_rep1'
+  NPCs_MSL2KO1_MOF_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-1_rep2'
+  NPCs_MSL2KO2_MOF_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-1_rep1'
+  NPCs_MSL2KO2_MOF_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-1_rep2'
+  NPCs_Control_MSL2_rep1:
+    broad: false
+    control: 'NPCs_Control_H3-2_rep1'
+  NPCs_Control_MSL2_rep2:
+    broad: false
+    control: 'NPCs_Control_H3-2_rep2'
+  NPCs_MSL2KO1_MSL2_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-2_rep1'
+  NPCs_MSL2KO1_MSL2_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-2_rep2'
+  NPCs_MSL2KO2_MSL2_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-2_rep1'
+  NPCs_MSL2KO2_MSL2_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-2_rep2'
+  NPCs_Control_DNMT3A_rep1:
+    broad: false
+    control: 'NPCs_Control_H3-2_rep1'
+  NPCs_Control_DNMT3A_rep2:
+    broad: false
+    control: 'NPCs_Control_H3-2_rep2'
+  NPCs_MSL2KO1_DNMT3A_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-2_rep1'
+  NPCs_MSL2KO1_DNMT3A_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-2_rep2'
+  NPCs_MSL2KO2_DNMT3A_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-2_rep1'
+  NPCs_MSL2KO2_DNMT3A_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-2_rep2'
+  NPCs_Control_DNMT3B_rep1:
+    broad: false
+    control: 'NPCs_Control_H3-2_rep1'
+  NPCs_Control_DNMT3B_rep2:
+    broad: false
+    control: 'NPCs_Control_H3-2_rep2'
+  NPCs_MSL2KO1_DNMT3B_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-2_rep1'
+  NPCs_MSL2KO1_DNMT3B_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-2_rep2'
+  NPCs_MSL2KO2_DNMT3B_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-2_rep1'
+  NPCs_MSL2KO2_DNMT3B_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-2_rep2'
+  NPCs_Control_H4K5ac_rep1:
+    broad: false
+    control: 'NPCs_Control_H3-3_rep1'
+  NPCs_Control_H4K5ac_rep2:
+    broad: false
+    control: 'NPCs_Control_H3-3_rep2'
+  NPCs_MSL2KO1_H4K5ac_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-3_rep1'
+  NPCs_MSL2KO1_H4K5ac_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-3_rep2'
+  NPCs_MSL2KO2_H4K5ac_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-3_rep1'
+  NPCs_MSL2KO2_H4K5ac_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-3_rep2'
+  NPCs_Control_H4K5ac_rep1:
+    broad: false
+    control: 'NPCs_Control_H3-3_rep1'
+  NPCs_Control_H4K5ac_rep2:
+    broad: false
+    control: 'NPCs_Control_H3-3_rep2'
+  NPCs_MSL2KO1_H4K5ac_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-3_rep1'
+  NPCs_MSL2KO1_H4K5ac_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO1_H3-3_rep2'
+  NPCs_MSL2KO2_H4K5ac_rep1:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-3_rep1'
+  NPCs_MSL2KO2_H4K5ac_rep2:
+    broad: false
+    control: 'NPCs_MSL2KO2_H3-3_rep2'

@@ -1,0 +1,3 @@
+genome: /path/to/genome.fa.gz
+gtf: /path/to/genes.gtf
+SNPdb: /path/to/snpdb.vcf.gz

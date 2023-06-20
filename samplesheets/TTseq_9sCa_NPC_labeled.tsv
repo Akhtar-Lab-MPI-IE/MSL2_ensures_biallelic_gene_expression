@@ -1,0 +1,9 @@
+name    condition
+NPCs_Control_labeledTTseq_rep1  control
+NPCs_Control_labeledTTseq_rep2  control
+NPCs_MSL2KO1_labeledTTseq_rep1  test
+NPCs_MSL2KO1_labeledTTseq_rep2  test
+NPCs_MSL2KO1_labeledTTseq_rep3  test
+NPCs_MSL2KO2_labeledTTseq_rep1  test
+NPCs_MSL2KO2_labeledTTseq_rep2  test
+NPCs_MSL2KO2_labeledTTseq_rep3  test

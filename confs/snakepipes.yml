@@ -1,0 +1,14 @@
+name: snakepipesAS
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - pandas=1.1.0
+  - fuzzywuzzy=0.17.0
+  - python=3.8
+  - snakemake=5.18.0
+  - graphviz=2.38.0
+  - ca-certificates=2022.12.7
+  - certifi=2022.12.7
+  - openssl=3.1.0

@@ -1,0 +1,17 @@
+name	condition   genotype
+NPCs_MSL2KO1_BSseq_rep1_R1_bismark_bt2_pe.genome1.CpG_report.txt	KO  genome1
+NPCs_MSL2KO1_BSseq_rep2_R1_bismark_bt2_pe.genome1.CpG_report.txt	KO  genome1
+NPCs_MSL2KO2_BSseq_rep1_R1_bismark_bt2_pe.genome1.CpG_report.txt	KO  genome1
+NPCs_MSL2KO2_BSseq_rep2_R1_bismark_bt2_pe.genome1.CpG_report.txt	KO  genome1
+NPCs_Control_BSseq_rep1_R1_bismark_bt2_pe.genome1.CpG_report.txt	WT  genome1
+NPCs_Control_BSseq_rep2_R1_bismark_bt2_pe.genome1.CpG_report.txt	WT  genome1
+NPCs_Control_BSseq_rep3_R1_bismark_bt2_pe.genome1.CpG_report.txt	WT  genome1
+NPCs_Control_BSseq_rep4_R1_bismark_bt2_pe.genome1.CpG_report.txt	WT  genome1
+NPCs_MSL2KO1_BSseq_rep1_R1_bismark_bt2_pe.genome2.CpG_report.txt	KO  genome2
+NPCs_MSL2KO1_BSseq_rep2_R1_bismark_bt2_pe.genome2.CpG_report.txt	KO  genome2
+NPCs_MSL2KO2_BSseq_rep1_R1_bismark_bt2_pe.genome2.CpG_report.txt	KO  genome2
+NPCs_MSL2KO2_BSseq_rep2_R1_bismark_bt2_pe.genome2.CpG_report.txt	KO  genome2
+NPCs_Control_BSseq_rep1_R1_bismark_bt2_pe.genome2.CpG_report.txt	WT  genome2
+NPCs_Control_BSseq_rep2_R1_bismark_bt2_pe.genome2.CpG_report.txt	WT  genome2
+NPCs_Control_BSseq_rep3_R1_bismark_bt2_pe.genome2.CpG_report.txt	WT  genome2
+NPCs_Control_BSseq_rep4_R1_bismark_bt2_pe.genome2.CpG_report.txt	WT  genome2

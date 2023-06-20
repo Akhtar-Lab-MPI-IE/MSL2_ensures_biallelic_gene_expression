@@ -1,0 +1,541 @@
+chip_dict:
+  NPCs_Control_H3K27ac_rep1.genome1:
+    broad: false
+    control: NPCs_Control_Input1_rep1.genome1
+  NPCs_Control_H3K27ac_rep2.genome1:
+    broad: false
+    control: NPCs_Control_Input1_rep2.genome1
+  NPCs_MSL2KO1_H3K27ac_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep1.genome1
+  NPCs_MSL2KO1_H3K27ac_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep2.genome1
+  NPCs_MSL2KO2_H3K27ac_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_MSL2KO2_H3K27ac_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_Control_H3K27me3_rep1.genome1:
+    broad: true
+    control: NPCs_Control_Input1_rep1.genome1
+  NPCs_Control_H3K27me3_rep2.genome1:
+    broad: true
+    control: NPCs_Control_Input1_rep2.genome1
+  NPCs_MSL2KO1_H3K27me3_rep1.genome1:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep1.genome1
+  NPCs_MSL2KO1_H3K27me3_rep2.genome1:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep2.genome1
+  NPCs_MSL2KO2_H3K27me3_rep1.genome1:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_MSL2KO2_H3K27me3_rep2.genome1:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_Control_H3K36me3_rep1.genome1:
+    broad: true
+    control: NPCs_Control_Input1_rep1.genome1
+  NPCs_Control_H3K36me3_rep2.genome1:
+    broad: true
+    control: NPCs_Control_Input1_rep2.genome1
+  NPCs_MSL2KO1_H3K36me3_rep1.genome1:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep1.genome1
+  NPCs_MSL2KO1_H3K36me3_rep2.genome1:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep2.genome1
+  NPCs_MSL2KO2_H3K36me3_rep1.genome1:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_MSL2KO2_H3K36me3_rep2.genome1:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_Control_H3K4me1_rep1.genome1:
+    broad: true
+    control: NPCs_Control_Input1_rep1.genome1
+  NPCs_Control_H3K4me1_rep2.genome1:
+    broad: true
+    control: NPCs_Control_Input1_rep2.genome1
+  NPCs_MSL2KO1_H3K4me1_rep1.genome1:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep1.genome1
+  NPCs_MSL2KO1_H3K4me1_rep2.genome1:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep2.genome1
+  NPCs_MSL2KO2_H3K4me1_rep1.genome1:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_MSL2KO2_H3K4me1_rep2.genome1:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_Control_H3K4me3_rep1.genome1:
+    broad: false
+    control: NPCs_Control_Input1_rep1.genome1
+  NPCs_Control_H3K4me3_rep2.genome1:
+    broad: false
+    control: NPCs_Control_Input1_rep2.genome1
+  NPCs_MSL2KO1_H3K4me3_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep1.genome1
+  NPCs_MSL2KO1_H3K4me3_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep2.genome1
+  NPCs_MSL2KO2_H3K4me3_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_MSL2KO2_H3K4me3_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_Control_H3K9me3_rep1.genome1:
+    broad: true
+    control: NPCs_Control_Input1_rep1.genome1
+  NPCs_Control_H3K9me3_rep2.genome1:
+    broad: true
+    control: NPCs_Control_Input1_rep2.genome1
+  NPCs_MSL2KO1_H3K9me3_rep1.genome1:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep1.genome1
+  NPCs_MSL2KO1_H3K9me3_rep2.genome1:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep2.genome1
+  NPCs_MSL2KO2_H3K9me3_rep1.genome1:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_MSL2KO2_H3K9me3_rep2.genome1:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_Control_H4k12ac_rep1.genome1:
+    broad: false
+    control: NPCs_Control_Input1_rep1.genome1
+  NPCs_Control_H4k12ac_rep2.genome1:
+    broad: false
+    control: NPCs_Control_Input1_rep2.genome1
+  NPCs_MSL2KO1_H4k12ac_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep1.genome1
+  NPCs_MSL2KO1_H4k12ac_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep2.genome1
+  NPCs_MSL2KO2_H4k12ac_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_MSL2KO2_H4k12ac_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_Control_H4k5ac_rep1.genome1:
+    broad: false
+    control: NPCs_Control_Input1_rep1.genome1
+  NPCs_Control_H4k5ac_rep2.genome1:
+    broad: false
+    control: NPCs_Control_Input1_rep2.genome1
+  NPCs_MSL2KO1_H4k5ac_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep1.genome1
+  NPCs_MSL2KO1_H4k5ac_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep2.genome1
+  NPCs_MSL2KO2_H4k5ac_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_MSL2KO2_H4k5ac_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome1
+  NPCs_Control_MSL2_rep1.genome1:
+    broad: false
+    control: NPCs_Control_Input3_rep1.genome1
+  NPCs_Control_MSL2_rep2.genome1:
+    broad: false
+    control: NPCs_Control_Input3_rep2.genome1
+  NPCs_MSL2KO1_MSL2_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep1.genome1
+  NPCs_MSL2KO1_MSL2_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep2.genome1
+  NPCs_MSL2KO2_MSL2_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome1
+  NPCs_MSL2KO2_MSL2_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome1
+  NPCs_Control_KANSL3_rep1.genome1:
+    broad: false
+    control: NPCs_Control_Input3_rep1.genome1
+  NPCs_Control_KANSL3_rep2.genome1:
+    broad: false
+    control: NPCs_Control_Input3_rep2.genome1
+  NPCs_MSL2KO1_KANSL3_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep1.genome1
+  NPCs_MSL2KO1_KANSL3_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep2.genome1
+  NPCs_MSL2KO2_KANSL3_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome1
+  NPCs_MSL2KO2_KANSL3_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome1
+  NPCs_Control_SP1_rep1.genome1:
+    broad: false
+    control: NPCs_Control_Input3_rep1.genome1
+  NPCs_Control_SP1_rep2.genome1:
+    broad: false
+    control: NPCs_Control_Input3_rep2.genome1
+  NPCs_MSL2KO1_SP1_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep1.genome1
+  NPCs_MSL2KO1_SP1_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep2.genome1
+  NPCs_MSL2KO2_SP1_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome1
+  NPCs_MSL2KO2_SP1_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome1
+  NPCs_Control_Pol2_rep1.genome1:
+    broad: false
+    control: NPCs_Control_Input3_rep1.genome1
+  NPCs_Control_Pol2_rep2.genome1:
+    broad: false
+    control: NPCs_Control_Input3_rep2.genome1
+  NPCs_MSL2KO1_Pol2_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep1.genome1
+  NPCs_MSL2KO1_Pol2_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep2.genome1
+  NPCs_MSL2KO2_Pol2_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome1
+  NPCs_MSL2KO2_Pol2_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome1
+  NPCs_Control_MOF_rep1.genome1:
+    broad: false
+    control: NPCs_Control_Input3_rep1.genome1
+  NPCs_Control_MOF_rep2.genome1:
+    broad: false
+    control: NPCs_Control_Input3_rep2.genome1
+  NPCs_MSL2KO1_MOF_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep1.genome1
+  NPCs_MSL2KO1_MOF_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep2.genome1
+  NPCs_MSL2KO2_MOF_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome1
+  NPCs_MSL2KO2_MOF_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome1
+  NPCs_Control_NRF1_rep1.genome1:
+    broad: false
+    control: NPCs_Control_Input2_rep1.genome1
+  NPCs_Control_NRF1_rep2.genome1:
+    broad: false
+    control: NPCs_Control_Input2_rep2.genome1
+  NPCs_MSL2KO1_NRF1_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input2_rep1.genome1
+  NPCs_MSL2KO1_NRF1_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input2_rep2.genome1
+  NPCs_MSL2KO2_NRF1_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input2_rep2.genome1
+  NPCs_MSL2KO2_NRF1_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input2_rep2.genome1
+  NPCs_Control_BRD4_rep1.genome1:
+    broad: false
+    control: NPCs_Control_Input2_rep1.genome1
+  NPCs_Control_BRD4_rep2.genome1:
+    broad: false
+    control: NPCs_Control_Input2_rep2.genome1
+  NPCs_MSL2KO1_BRD4_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input2_rep1.genome1
+  NPCs_MSL2KO1_BRD4_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO1_Input2_rep2.genome1
+  NPCs_MSL2KO2_BRD4_rep1.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input2_rep2.genome1
+  NPCs_MSL2KO2_BRD4_rep2.genome1:
+    broad: false
+    control: NPCs_MSL2KO2_Input2_rep2.genome1
+  NPCs_Control_H3K27ac_rep1.genome2:
+    broad: false
+    control: NPCs_Control_Input1_rep1.genome2
+  NPCs_Control_H3K27ac_rep2.genome2:
+    broad: false
+    control: NPCs_Control_Input1_rep2.genome2
+  NPCs_MSL2KO1_H3K27ac_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep1.genome2
+  NPCs_MSL2KO1_H3K27ac_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep2.genome2
+  NPCs_MSL2KO2_H3K27ac_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_MSL2KO2_H3K27ac_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_Control_H3K27me3_rep1.genome2:
+    broad: true
+    control: NPCs_Control_Input1_rep1.genome2
+  NPCs_Control_H3K27me3_rep2.genome2:
+    broad: true
+    control: NPCs_Control_Input1_rep2.genome2
+  NPCs_MSL2KO1_H3K27me3_rep1.genome2:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep1.genome2
+  NPCs_MSL2KO1_H3K27me3_rep2.genome2:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep2.genome2
+  NPCs_MSL2KO2_H3K27me3_rep1.genome2:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_MSL2KO2_H3K27me3_rep2.genome2:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_Control_H3K36me3_rep1.genome2:
+    broad: true
+    control: NPCs_Control_Input1_rep1.genome2
+  NPCs_Control_H3K36me3_rep2.genome2:
+    broad: true
+    control: NPCs_Control_Input1_rep2.genome2
+  NPCs_MSL2KO1_H3K36me3_rep1.genome2:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep1.genome2
+  NPCs_MSL2KO1_H3K36me3_rep2.genome2:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep2.genome2
+  NPCs_MSL2KO2_H3K36me3_rep1.genome2:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_MSL2KO2_H3K36me3_rep2.genome2:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_Control_H3K4me1_rep1.genome2:
+    broad: true
+    control: NPCs_Control_Input1_rep1.genome2
+  NPCs_Control_H3K4me1_rep2.genome2:
+    broad: true
+    control: NPCs_Control_Input1_rep2.genome2
+  NPCs_MSL2KO1_H3K4me1_rep1.genome2:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep1.genome2
+  NPCs_MSL2KO1_H3K4me1_rep2.genome2:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep2.genome2
+  NPCs_MSL2KO2_H3K4me1_rep1.genome2:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_MSL2KO2_H3K4me1_rep2.genome2:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_Control_H3K4me3_rep1.genome2:
+    broad: false
+    control: NPCs_Control_Input1_rep1.genome2
+  NPCs_Control_H3K4me3_rep2.genome2:
+    broad: false
+    control: NPCs_Control_Input1_rep2.genome2
+  NPCs_MSL2KO1_H3K4me3_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep1.genome2
+  NPCs_MSL2KO1_H3K4me3_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep2.genome2
+  NPCs_MSL2KO2_H3K4me3_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_MSL2KO2_H3K4me3_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_Control_H3K9me3_rep1.genome2:
+    broad: true
+    control: NPCs_Control_Input1_rep1.genome2
+  NPCs_Control_H3K9me3_rep2.genome2:
+    broad: true
+    control: NPCs_Control_Input1_rep2.genome2
+  NPCs_MSL2KO1_H3K9me3_rep1.genome2:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep1.genome2
+  NPCs_MSL2KO1_H3K9me3_rep2.genome2:
+    broad: true
+    control: NPCs_MSL2KO1_Input1_rep2.genome2
+  NPCs_MSL2KO2_H3K9me3_rep1.genome2:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_MSL2KO2_H3K9me3_rep2.genome2:
+    broad: true
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_Control_H4k12ac_rep1.genome2:
+    broad: false
+    control: NPCs_Control_Input1_rep1.genome2
+  NPCs_Control_H4k12ac_rep2.genome2:
+    broad: false
+    control: NPCs_Control_Input1_rep2.genome2
+  NPCs_MSL2KO1_H4k12ac_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep1.genome2
+  NPCs_MSL2KO1_H4k12ac_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep2.genome2
+  NPCs_MSL2KO2_H4k12ac_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_MSL2KO2_H4k12ac_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_Control_H4k5ac_rep1.genome2:
+    broad: false
+    control: NPCs_Control_Input1_rep1.genome2
+  NPCs_Control_H4k5ac_rep2.genome2:
+    broad: false
+    control: NPCs_Control_Input1_rep2.genome2
+  NPCs_MSL2KO1_H4k5ac_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep1.genome2
+  NPCs_MSL2KO1_H4k5ac_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input1_rep2.genome2
+  NPCs_MSL2KO2_H4k5ac_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_MSL2KO2_H4k5ac_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input1_rep2.genome2
+  NPCs_Control_MSL2_rep1.genome2:
+    broad: false
+    control: NPCs_Control_Input3_rep1.genome2
+  NPCs_Control_MSL2_rep2.genome2:
+    broad: false
+    control: NPCs_Control_Input3_rep2.genome2
+  NPCs_MSL2KO1_MSL2_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep1.genome2
+  NPCs_MSL2KO1_MSL2_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep2.genome2
+  NPCs_MSL2KO2_MSL2_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome2
+  NPCs_MSL2KO2_MSL2_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome2
+  NPCs_Control_KANSL3_rep1.genome2:
+    broad: false
+    control: NPCs_Control_Input3_rep1.genome2
+  NPCs_Control_KANSL3_rep2.genome2:
+    broad: false
+    control: NPCs_Control_Input3_rep2.genome2
+  NPCs_MSL2KO1_KANSL3_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep1.genome2
+  NPCs_MSL2KO1_KANSL3_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep2.genome2
+  NPCs_MSL2KO2_KANSL3_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome2
+  NPCs_MSL2KO2_KANSL3_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome2
+  NPCs_Control_SP1_rep1.genome2:
+    broad: false
+    control: NPCs_Control_Input3_rep1.genome2
+  NPCs_Control_SP1_rep2.genome2:
+    broad: false
+    control: NPCs_Control_Input3_rep2.genome2
+  NPCs_MSL2KO1_SP1_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep1.genome2
+  NPCs_MSL2KO1_SP1_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep2.genome2
+  NPCs_MSL2KO2_SP1_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome2
+  NPCs_MSL2KO2_SP1_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome2
+  NPCs_Control_Pol2_rep1.genome2:
+    broad: false
+    control: NPCs_Control_Input3_rep1.genome2
+  NPCs_Control_Pol2_rep2.genome2:
+    broad: false
+    control: NPCs_Control_Input3_rep2.genome2
+  NPCs_MSL2KO1_Pol2_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep1.genome2
+  NPCs_MSL2KO1_Pol2_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep2.genome2
+  NPCs_MSL2KO2_Pol2_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome2
+  NPCs_MSL2KO2_Pol2_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome2
+  NPCs_Control_MOF_rep1.genome2:
+    broad: false
+    control: NPCs_Control_Input3_rep1.genome2
+  NPCs_Control_MOF_rep2.genome2:
+    broad: false
+    control: NPCs_Control_Input3_rep2.genome2
+  NPCs_MSL2KO1_MOF_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep1.genome2
+  NPCs_MSL2KO1_MOF_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input3_rep2.genome2
+  NPCs_MSL2KO2_MOF_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome2
+  NPCs_MSL2KO2_MOF_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input3_rep2.genome2
+  NPCs_Control_NRF1_rep1.genome2:
+    broad: false
+    control: NPCs_Control_Input2_rep1.genome2
+  NPCs_Control_NRF1_rep2.genome2:
+    broad: false
+    control: NPCs_Control_Input2_rep2.genome2
+  NPCs_MSL2KO1_NRF1_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input2_rep1.genome2
+  NPCs_MSL2KO1_NRF1_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input2_rep2.genome2
+  NPCs_MSL2KO2_NRF1_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input2_rep2.genome2
+  NPCs_MSL2KO2_NRF1_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input2_rep2.genome2
+  NPCs_Control_BRD4_rep1.genome2:
+    broad: false
+    control: NPCs_Control_Input2_rep1.genome2
+  NPCs_Control_BRD4_rep2.genome2:
+    broad: false
+    control: NPCs_Control_Input2_rep2.genome2
+  NPCs_MSL2KO1_BRD4_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input2_rep1.genome2
+  NPCs_MSL2KO1_BRD4_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO1_Input2_rep2.genome2
+  NPCs_MSL2KO2_BRD4_rep1.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input2_rep2.genome2
+  NPCs_MSL2KO2_BRD4_rep2.genome2:
+    broad: false
+    control: NPCs_MSL2KO2_Input2_rep2.genome2

@@ -1,0 +1,6 @@
+fqdir_rna: /path/to/rna_fqs
+fqdir_atac: /path/to/atac_fqs
+bt_ix: /path/to/bowtie2_Nindex/genome
+star_ix: /path/to/star_nindex/
+snpfile: /path/to/SNPfile.txt
+splitfq: /path/to/splitFQ.py
