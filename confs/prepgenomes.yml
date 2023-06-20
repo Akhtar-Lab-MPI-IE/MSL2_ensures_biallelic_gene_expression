@@ -4,7 +4,7 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - snpsplit=0.3.4
+  - snpsplit=0.6.0
   - star=2.7.4a
   - snakemake=5.18.0
   - bowtie2=2.3.5.1

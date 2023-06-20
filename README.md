@@ -23,14 +23,14 @@ Additionaly, [mamba](https://mamba.readthedocs.io/en/latest/) is required as wel
 A couple of files need to be downloaded:
 
  - [SNP information (SNPdb)](https://ftp.ebi.ac.uk/pub/databases/mousegenomes/REL-1505-SNPs_Indels/mgp.v5.merged.snps_all.dbSNP142.vcf.gz)
- - [GRCm38 genome fasta (genome)](ftp://ftp.ensembl.org/pub/release-78/fasta/mus_musculus/dna/Mus_musculus.GRCm38.dna_sm.primary_assembly.fa.gz)
+ - [GRCm38 genome fasta (genome)](http://ftp.ensembl.org/pub/release-78/fasta/mus_musculus/dna/Mus_musculus.GRCm38.dna_sm.primary_assembly.fa.gz)
 
 Place these in a directory and fill in the config file confs/prepgenomes_config.yml appropriately (with absolute paths).
 Make sure to unpack and place genes.gtf.gz (in this repository under lfs/genes.gtf.gz) in the directory and the yaml file as well.
 
 Next, create the prepgenomes environment and activate it:
 
-  > mamba env create -f confs/prepgenomes.yml
+  > mamba env create -f confs/prepgenomes.yml  
   > mamba activate prepgenomes
 
 The references can now be created with snakemake:
@@ -68,10 +68,10 @@ Modify the cluster.yaml file appropriately (snakemake_cluster_cmd especially). T
 
  > snakePipes info
 
-Running the dataset specific workflows is explained under in the [snakePipes markdown](scripts/snakePipes.md).
+Running the dataset specific workflows is explained in the [snakePipes markdown](scripts/snakePipes.md).
 Note that there are two post-processing scripts included (allele_specific.degenes.category.R & allele_specific.degenes.cleanup.R), these require their own environment:
 
-  > mamba env create -f confs/degenes.yml
+  > mamba env create -f confs/degenes.yml  
   > mamba activate degenes
 
 ## BSseq
@@ -94,4 +94,22 @@ The differential methylation calling is exemplified in the [Rscript](scripts/DSS
 
 ## Multiome
 
-For the multiome runs (scRNA + scATAC combined), [cellranger arc](https://support.10xgenomics.com/single-cell-multiome-atac-gex/software/pipelines/latest/what-is-cell-ranger-arc) was used, with reference mm10-2020-A-2.0.0. With default settings.
+For the multiome runs (scRNA + scATAC combined), [cellranger arc](https://support.10xgenomics.com/single-cell-multiome-atac-gex/software/pipelines/latest/what-is-cell-ranger-arc) was used, with reference mm10-2020-A-2.0.0.
+To run allele-specific analysis for this data, reads were phased prior to cellranger arc runs. This can be reproduced with the by activating the prepgenomes environment again (see above):
+
+  > mamba activate prepgenomes
+
+and fill in the confs/phasemul_config.yml file accordingly:
+
+ - fqdir_rna: absolute path to directory containing scRNA files
+ - fqdir_atac: absolute path to directory containing scATAC files
+ - bt_ix: bowtie2 index (including 'genome' postfix), created by prepgenomes
+ - star_ix: star index folder, created by prepgenomes
+ - snpfile: SNPfile.txt, created by prepgenomes
+ - splitfq: absolute path to scripts/splitFQ.py (included in this repository)
+
+The fastqfiles can then be split per genome by calling:
+
+  > snakemake -s scripts/phase_multiome.smk --configfile confs/phasemul_config.yml --cores 10 -d phasemul_outputdirectory
+
+The outputted files are properly named to use with cellranger-arc directly.
